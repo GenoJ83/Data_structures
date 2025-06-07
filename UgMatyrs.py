@@ -8,7 +8,7 @@ def read_uganda_martyrs_file(file_path):
         return []
 
 def is_uganda_martyr_name(input_string, file_path):
-    # Get the list of Uganda Martyrs' names from the file
+    # Getting the list of Uganda Martyrs' names from the file
     uganda_martyrs_names = read_uganda_martyrs_file(file_path)
 
     # Convert the input string to lowercase for case-insensitive comparison
