@@ -21,7 +21,7 @@ def is_uganda_martyr_name(input_string, file_path):
 
     return False
 
-# Example usage with the correct file path
+# Example usage 
 file_path = r'E:\BsCs\Python\Data Structures\Data_structures\names.txt'
 input_name = input("Please enter a name: ")
 result = is_uganda_martyr_name(input_name, file_path)
