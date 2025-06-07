@@ -11,7 +11,7 @@ def is_uganda_martyr_name(input_string, file_path):
     # Getting the list of Uganda Martyrs' names from the file
     uganda_martyrs_names = read_uganda_martyrs_file(file_path)
 
-    # Convert the input string to lowercase for case-insensitive comparison
+    # Converting the input string to lowercase for case-insensitive comparison
     input_string = input_string.lower()
 
     # Check if the input string matches any of the Uganda Martyrs' names
